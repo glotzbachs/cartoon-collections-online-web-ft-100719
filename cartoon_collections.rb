@@ -26,6 +26,7 @@ def find_the_cheese(array)# code an argument here
    }
    if new_array.include?(nil)
      nil
+   end
 end
 
 
