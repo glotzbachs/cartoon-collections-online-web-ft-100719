@@ -19,14 +19,7 @@ end
 def find_the_cheese(array)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  i=0
-  new_array=[]
-  while i<array.length
-  new_array<<
-  yield(array[i])
-  i+=1
-  end
-  new_array
+ 
 end
 
 array("") {|type| cheese_types.include?(type)}
@@ -41,3 +34,13 @@ array("") {|type| cheese_types.include?(type)}
   # else
   #   return nil
   # end
+  
+  
+  # i=0
+  # new_array=[]
+  # while i<array.length
+  # new_array<<
+  # yield(array[i])
+  # i+=1
+  # end
+  # new_array
