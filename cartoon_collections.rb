@@ -19,14 +19,7 @@ end
 def find_the_cheese(array)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  new_array=array.collect{|type|
-    if cheese_types.include?(type)
-      return type
-    end
-   }
-   if new_array.include?(nil)
-     nil
-   end
+  
 end
 
 
@@ -51,3 +44,12 @@ end
   # end
   # new_array
   #array("") {|type| cheese_types.include?(type)}
+  
+  #SECOND GOOD IDEAnew_array=array.collect{|type|
+  #   if cheese_types.include?(type)
+  #     return type
+  #   end
+  # }
+  # if new_array.include?(nil)
+  #   nil
+  # end
