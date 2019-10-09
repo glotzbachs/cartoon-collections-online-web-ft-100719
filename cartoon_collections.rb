@@ -23,7 +23,7 @@ def find_the_cheese(array)# code an argument here
   new_array=[]
   while i<array.length
   new_array<<
-  yield (array[i])
+  yield(array[i])
   i+=1
   end
   new_array
