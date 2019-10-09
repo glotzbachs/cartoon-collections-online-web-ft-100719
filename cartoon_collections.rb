@@ -30,6 +30,7 @@ def find_the_cheese(array)# code an argument here
 end
 
 array("") {|type| cheese_types.include?(type)}
+
 #original thoughts for find_the_cheese
   # if array.include?("gouda")
   #   return "gouda"
