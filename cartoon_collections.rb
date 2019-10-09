@@ -29,7 +29,7 @@ def find_the_cheese(array)# code an argument here
   new_array
 end
 
-array([]) {
+array([]) {|type| type==cheese_types[i]
 #original thoughts for find_the_cheese
   # if array.include?("gouda")
   #   return "gouda"
