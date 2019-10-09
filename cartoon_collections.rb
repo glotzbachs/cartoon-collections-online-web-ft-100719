@@ -34,7 +34,7 @@ end
   #   return nil
   # end
   
-  #BAD IDEA
+#BAD IDEA
   # i=0
   # new_array=[]
   # while i<array.length
@@ -45,7 +45,7 @@ end
   # new_array
   #array("") {|type| cheese_types.include?(type)}
   
-  #SECOND GOOD IDEAnew_array=array.collect{|type|
+#SECOND GOOD IDEAnew_array=array.collect{|type|
   #   if cheese_types.include?(type)
   #     return type
   #   end
