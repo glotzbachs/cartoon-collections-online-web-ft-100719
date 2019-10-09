@@ -23,7 +23,7 @@ def find_the_cheese(array)# code an argument here
 end
 
 
-#original thoughts for find_the_cheese
+#original thoughts for find_the_cheese (WORKED)
   # if array.include?("gouda")
   #   return "gouda"
   # elsif array.include?("cheddar")
@@ -34,7 +34,7 @@ end
   #   return nil
   # end
   
-#BAD IDEA
+#BAD IDEA (DIDN'T WORK!!!)
   # i=0
   # new_array=[]
   # while i<array.length
@@ -45,7 +45,8 @@ end
   # new_array
   #array("") {|type| cheese_types.include?(type)}
   
-#SECOND GOOD IDEAnew_array=array.collect{|type|
+#SECOND GOOD IDEA (WORKED)
+  #new_array=array.collect{|type|
   #   if cheese_types.include?(type)
   #     return type
   #   end
