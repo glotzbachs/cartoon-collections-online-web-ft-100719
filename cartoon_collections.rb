@@ -22,8 +22,6 @@ def find_the_cheese(array)# code an argument here
    new_array=array.collect{|type|
     if cheese_types.include?(type)
       return type
-    else
-      nil
     end
    }
 end
